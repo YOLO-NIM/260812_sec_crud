@@ -3,7 +3,7 @@ package org.example.sec_crud.controller;
 import lombok.RequiredArgsConstructor;
 import org.example.sec_crud.domain.dto.BoardFormDTO;
 import org.example.sec_crud.domain.entity.BoardEntity;
-import org.example.sec_crud.domain.entity.BoardService;
+import org.example.sec_crud.service.BoardService;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

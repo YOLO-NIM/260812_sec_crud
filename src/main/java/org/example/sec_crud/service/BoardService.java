@@ -1,7 +1,9 @@
-package org.example.sec_crud.domain.entity;
+package org.example.sec_crud.service;
 
 import lombok.RequiredArgsConstructor;
 import org.example.sec_crud.domain.dto.BoardFormDTO;
+import org.example.sec_crud.domain.entity.BoardEntity;
+import org.example.sec_crud.domain.entity.UserAccountEntity;
 import org.example.sec_crud.domain.repository.BoardJpaRepository;
 import org.example.sec_crud.domain.repository.UserAccountJpaRepository;
 import org.springframework.stereotype.Service;
